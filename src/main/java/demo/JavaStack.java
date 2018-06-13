@@ -9,6 +9,7 @@ public class JavaStack {
 
 	public static void main(String[] args) {
 		
+		System.out.println("java stack");
 		/*Stack sc = new Stack();
 		sc.add("rajesh1");
 		sc.add("rajesh2");
