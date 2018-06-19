@@ -1,21 +1,19 @@
 package demo;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
 public class Test {
 
-
-
-	public void foo(String s) {
-		System.out.println("String");
+	public static  void main(String[] args) {
+		System.out.println("static");
+	
 	}
-	public void foo(Object s) {
-		System.out.println("String");
-	}
-
-	public void foo(StringBuffer sb){
-		System.out.println("StringBuffer");
-	}
-
-	public static void main(String[] args) {
-		new Test().foo("abc");
-	}
+	
+	
+	
 }
