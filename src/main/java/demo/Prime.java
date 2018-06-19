@@ -1,8 +1,11 @@
 package demo;
 
+import java.util.Arrays;
+
 public class Prime {
 
 	public static void main(String[] args) {
+
 		//printPrime(20);
 		//chechPrime(23);
 		//printFabocci(10);
@@ -19,8 +22,29 @@ public class Prime {
         else
             System.out.println("Element found at index " + 
                                                  result);*/
-		int arr[] = {4,10,40,2,3,5};
-		bubbleSort(arr);
+		/*int arr[] = {4,10,40,2,3,5};
+		bubbleSort(arr);*/
+		
+		/*String str = rev("Nitin");
+		System.out.println(str);*/
+		
+		
+		
+		getSort("afserfdv");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
@@ -97,6 +121,19 @@ public class Prime {
 		return rev;
 	}
 
+	public static String rev(String str)
+	{
+		if(str==null || str.length()<=1)
+		{
+			return str;
+		}
+		else
+		{
+			return rev(str.substring(1))+str.charAt(0);
+		}
+	}
+ 
+	
 	public static void checkStringPalindrome(String str)
 	{
 		String str1=stringRev(str);
@@ -178,8 +215,38 @@ public class Prime {
 		}
 	}
 
+	public static void selectionSort(int[] arr)
+	{
+		
+		int small = arr[0];
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			if(small<arr[i])
+			{
+				//arr[i] = small = ;
+				
+			}
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
 
 
+	public static void getSort(String str)
+	{
+		char[] ch = str.toCharArray();
+		Arrays.sort(ch);
+		System.out.println(ch);
+	}
 
 
 
