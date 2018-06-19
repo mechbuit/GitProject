@@ -19,8 +19,8 @@ public class Prime {
         else
             System.out.println("Element found at index " + 
                                                  result);*/
-		/*int arr[] = {2,3,4,10,40,5};
-		bubbleSort(arr);*/
+		int arr[] = {4,10,40,2,3,5};
+		bubbleSort(arr);
 		
 	}
 
@@ -148,7 +148,7 @@ public class Prime {
 		return -1;
 	}
 	
-	public void swap(int x,int y)
+	public static void swap(int x,int y)
 	{
 		int temp;
 		temp=y;
@@ -168,6 +168,7 @@ public class Prime {
 					temp=arr[j];
 					arr[j] = arr[i];
 					arr[i]=temp;
+					//swap(arr[i], arr[j]);
 				}
 			}
 		}
@@ -176,4 +177,30 @@ public class Prime {
 			System.out.println(arr[i]);
 		}
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
